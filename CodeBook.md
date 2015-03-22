@@ -52,13 +52,9 @@ trainData <- cbind(Subjecttrain, Ytrain, Xtrain)
 
 ## Transformations
 1. Extracts only the measurements on the mean and standard deviation for each measurement.
-   ```
-   Subfeatures <- grepl("mean|std", features)
-   ```
+   ```Subfeatures <- grepl("mean|std", features)```
 2. Uses descriptive activity names to name the activities in the data set.
-   ```
-   Ytest[, 2] <- activityLabels[Ytest[, 1]]
-   ```
+   ```Ytest[, 2] <- activityLabels[Ytest[, 1]]```
 3. Appropriately labels the data set with descriptive variable names.
    ```
    names(Xtest) <- features
