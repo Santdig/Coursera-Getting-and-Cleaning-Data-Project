@@ -29,9 +29,6 @@ each activity and each subject.
 6. train/y_train.txt: Training labels.
 7. test/X_test.txt: Test set.
 8. test/y_test.txt: Test labels.
-
-The following files are available for the train and test data. Their descriptions are equivalent. 
-
 9.train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
 ## Steps to work on this course project
