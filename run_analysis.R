@@ -49,7 +49,7 @@ activityLabels <- activityLabelsData[, 2]
 ## for each measurement
 Subfeatures <- grepl("mean|std", features)
 names(Xtest) <- features
-Xtest = Xtest[, Subfeatures]
+Xtest <- Xtest[, Subfeatures]
 
 ## Assign activity labels ti Y_test activities
 Ytest[, 2] <- activityLabels[Ytest[, 1]]
@@ -73,7 +73,7 @@ names(Subjecttrain) <- "subject"
 trainData <- cbind(Subjecttrain, Ytrain, Xtrain)
 
 ## Merge test and train data
-mergedData = rbind(testData, trainData)
+mergedData <- rbind(testData, trainData)
 
 ## Remove working data frames
 rm(Ytrain, Xtrain, Ytest, Xtest, trainData, testData)
