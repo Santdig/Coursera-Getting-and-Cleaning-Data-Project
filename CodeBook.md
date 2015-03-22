@@ -34,6 +34,11 @@ activity_labels.txt
 * train/X_train.txt
 * train/y_train.txt
 
+```
+fileUrl<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileUrl,destfile="./dataSets/zipfile.zip",method="curl")
+```
+
 ## Read data from the targeted files
 From the picture and the related files, we can see:
 
