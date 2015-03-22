@@ -27,12 +27,12 @@ activity_labels.txt
 3. Unzipped files are in the folderUCI HAR Dataset. Get the list of the files
 4. See the README.txt file for the detailed information on the dataset. For the purposes of this project, the files in the Inertial Signals folders are not used. The files that will be used to load data are listed as follows:
 
-test/subject_test.txt
-test/X_test.txt
-test/y_test.txt
-train/subject_train.txt
-train/X_train.txt
-train/y_train.txt
+*test/subject_test.txt
+*test/X_test.txt
+*test/y_test.txt
+*train/subject_train.txt
+*train/X_train.txt
+*train/y_train.txt
 
 ## Read data from the targeted files
 From the picture and the related files, we can see:
