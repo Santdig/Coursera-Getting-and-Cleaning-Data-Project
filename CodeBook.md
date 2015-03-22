@@ -11,15 +11,11 @@ This data included both the raw sampled data (folder ../Inertial Signals) and fe
 
 There are 3 types of files:
 
-x: rows of feature measurements
-y: the activity labels corresponding to each row of X. Encoded as numbers.
-subject: the subjects on which each row of X was measured. Encoded as numbers.
-In addition, to determine which features are required, we look at the list of features:
-
-features.txt
-The encoding from activity labels ids to descriptive names.
-
-activity_labels.txt
+```X```: rows of feature measurements
+```Y```: the activity labels corresponding to each row of X. Encoded as numbers.
+```subject```: the subjects on which each row of X was measured. Encoded as numbers.
+In addition, to determine which features are required, we look at the list of features:```features.txt```
+The encoding from activity labels ids to descriptive names:```activity_labels.txt```
 
 ## Get the data
 1. Download the file and put the file in the data folder
