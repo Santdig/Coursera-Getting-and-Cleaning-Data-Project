@@ -7,10 +7,6 @@
 ## 5. From the data set in step 4, creates a second, independent tidy data 
 ##    set with the average of each variable for each activity and each subject.
 
-if (!require(dplyr)) {
-        install.packages("dplyr")
-}
-
 if (!require(data.table)) {
         install.packages("data.table")
 }
@@ -19,7 +15,6 @@ if (!require(reshape2)) {
         install.packages("reshape2")
 }
 
-library(dplyr)
 library(data.table)
 library(reshape2)
 
@@ -91,4 +86,4 @@ meltData <- melt(mergedData, id = idLabels, measure.vars = mergeddataLabels)
 tidyData <- dcast(meltData, subject + Activity_Label ~ variable, mean)
 
 ## Write tidy dataset to a text file
-write.table(tidyData, file = "./tidy_data.txt")
+write.table(tidyData, file = "./tidyset_meanBySubjectandActivity.txt", row.name = FALSE)
