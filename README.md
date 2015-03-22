@@ -39,8 +39,8 @@ each activity and each subject.
 2. CodeBook.md: Describes the variables, the data, and any transformations or work that you performed to clean up the data.
 3. run_analysis.R: Script for performing the analysis and preparing tidy dataset
 
-## Steps to work on this course project
+## Steps to work on this project
 
 1. Download and unzip the data source files and put into a folder on your local drive. You'll have a UCI HAR Dataset folder.
 2. Put run_analysis.R in the parent folder of DataUCI HAR Dataset, then set it as your working directory using setwd() function in RStudio.
-Run source("run_analysis.R"), then it will generate a new file tiny_data.txt in your working directory.
+3. Run source("run_analysis.R"), then it will generate a new file tiny_data.txt in your working directory.
