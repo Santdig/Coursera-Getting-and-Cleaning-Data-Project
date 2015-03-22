@@ -5,7 +5,7 @@ This is a code book that describes the variables, the data, and any transformati
 
 The raw data for this project is accelerometer data collected from the Samsung Galaxy S smartphone, and was provided to us at the links below:
 
-Data file: [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
+Data file: [(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)]
 CodeBook: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 This data included both the raw sampled data (folder ../Inertial Signals) and features apparently based on the raw data. For the purpose of this project, I am only looking at the features, not the raw data.
 
